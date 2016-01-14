@@ -25,7 +25,16 @@
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300);
 
 /* Calm Breeze */
+
+
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300);
+
+.centerit {
+	text-align: center;
+	margin-left: center;
+	margin-right: center;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
