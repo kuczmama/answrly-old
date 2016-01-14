@@ -13,3 +13,147 @@
  *= require_tree .
  *= require_self
  */
+ @import "bootstrap-sprockets";
+@import "bootstrap";
+@import "font-awesome";
+@import "codemirror";
+
+@import "summernote";
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300);
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "font-awesome";
+@import "codemirror";
+
+@import "summernote";
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300);
+
+.expert-image {
+    float: left;
+    border: 1px solid #aaa;
+    margin: 0px 20px 0px 0px;
+}
+
+.content-wrapper {
+    margin-left: 5dp;
+    margin-right: 5dp;
+}
+
+body {
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+}
+
+.reviews {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header .intro-text {
+	color: #373536;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+header .intro-text .intro-lead-in {
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-size: 22px;
+    line-height: 22px;
+    margin-bottom: 25px
+}
+header .intro-text .intro-heading {
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    margin-bottom: 25px
+}
+@media (min-width: 768px) {
+    header .intro-text {
+        padding-top: 100px;
+        padding-bottom: 200px
+    }
+    header .intro-text .intro-lead-in {
+        font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-style: italic;
+        font-size: 40px;
+        line-height: 40px;
+        margin-bottom: 25px
+    }
+    header .intro-text .intro-heading {
+        font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 75px;
+        line-height: 75px;
+        margin-bottom: 50px
+    }
+}
+
+.btn-xl {
+    color: #fff;
+    background-color: #2dabec;
+    border-color: #299cd6;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 3px;
+    font-size: 18px;
+    padding: 20px 40px
+}
+
+.btn-xl:hover {
+	color: #373536;
+}
+
+
+.wrapper {
+	position: static;
+	width: 100%;
+	margin: 80px auto;
+	background-color: #fff;
+	height: 100%;
+	padding: 50px;
+}
+
+.header {
+	position: fixed;
+	top: 0px;
+	left:0px;
+	width:100%;
+	z-index:999999;
+	
+}
+
+.paper {
+    background-color: #f5f5f5;
+    border-color: #DEE0E5;
+    color: #36373E;
+}
+.paper {
+    box-sizing: border-box;
+    border: 1px solid #F1F2F4;
+    //border-radius: 0.2rem;
+    height: 100%;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    padding: 2rem;
+}
+
+
+/* Users index */
+
+.users {
+  list-style: none;
+  margin: 0;
+  li {
+    overflow: auto;
+    padding: 10px 0;
+    border-bottom: 1px solid $gray-lighter;
+  }
+}
